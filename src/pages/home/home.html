@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header class="container">
+        <div class="topnav" id="myTopnav">
+            <a href="/home">
+                <img id="logo">
+            </a>
+
+            <a style="float: right;" href="/about">
+                <i class="fa fa-shopping-basket"></i>
+            </a>
+            <a style="float: right;" href="/about">
+                <i class="fa fa-search"></i>
+            </a>
+            <a style="float: right;">
+                <select id="selectrate">
+                </select>
+            </a>
+            <a id="btnMenuBars" class="icon">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div id="banner-principal" class="container"></div>
+    <h4 class="swipe-message">Swipe Products</h4>
+    <div class="swiper mySwiper">
+        <div id="products-carousel" class="swiper-wrapper"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+</html>
