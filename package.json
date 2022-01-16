@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "serve dist"
+    "dev": "serve dist",
+    "start": "node serve.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "dotenv": "^12.0.4",
+    "express": "^4.17.2",
     "lodash": "^4.17.21",
     "swiper": "^7.4.1"
   },
