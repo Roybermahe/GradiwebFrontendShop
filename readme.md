@@ -25,7 +25,14 @@ $ npm run start
 ## Test in local
 
 ```bash
-http://localhost:3000/home
+
+http://localhost:3000
+```
+
+## Test in heroku
+
+```bash
+https://cryptic-spire-59143.herokuapp.com/
 ```
 
 
